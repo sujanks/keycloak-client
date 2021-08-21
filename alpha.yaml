@@ -1,0 +1,9 @@
+realm: sample-realm
+group:
+  name: alpha
+  id: db7244d4-6319-44c1-8940-423c380e5bd6
+  users:
+    - 3ffe745f-5e0f-4a51-8f12-1246909e5d20
+    - e32aeadd-ed78-4f1a-8b8b-0912480359d9
+    - 867c1f18-ee65-4ea3-9d3b-4d21b81954de
+    - e6f333c1-48a4-4684-90f0-c53c800e8782
