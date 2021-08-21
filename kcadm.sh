@@ -29,4 +29,4 @@ DIRNAME=`dirname "$RESOLVED_NAME"`
 #    java $KC_OPTS -cp $DIRNAME/client/keycloak-admin-cli-${project.version}.jar org.keycloak.client.admin.cli.KcAdmMain "$@" --noconfig --token $(kcinit token admin-cli) --server $(kcinit show server)
 #fi
 # Remove the next line if you have enabled kcinit
-/usr/local/opt/openjdk/bin/java $KC_OPTS -cp keycloak-admin-cli-15.0.2.jar org.keycloak.client.admin.cli.KcAdmMain "$@"
+java $KC_OPTS -cp keycloak-admin-cli-15.0.2.jar org.keycloak.client.admin.cli.KcAdmMain "$@"
